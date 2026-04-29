@@ -1,1 +1,21 @@
-# MangoBazar
+# 💫 About Me:
+# 🥭 MangoBazar - তাজা আম সরাসরি আপনার দোরগোড়ায়<br><br>![License](https://img.shields.io/badge/License-MIT-green)<br>![Status](https://img.shields.io/badge/Status-Active-blue)<br>![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)<br>![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)<br>![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)<br><br>MangoBazar is a responsive, modern landing page for an online mango delivery service. Built with HTML, CSS, and vanilla JavaScript, it provides an excellent user experience for browsing and ordering fresh mangoes directly from farms.<br><br>## 🌟 Features<br><br>### 1. **Responsive Design**<br>   - Fully responsive layout that works on mobile, tablet, and desktop devices<br>   - Mobile-first approach with breakpoints for all screen sizes<br>   - Hamburger menu for mobile navigation<br><br>### 2. **Hero Section**<br>   - Eye-catching headline in Bengali<br>   - Call-to-action buttons for ordering and browsing varieties<br>   - Smooth animations and transitions<br><br>### 3. **Mango Varieties**<br>   - Display of 4 popular mango varieties (হিমসাগর, ল্যাংড়া, ফজলি, আম্রপালি)<br>   - Price information per kilogram<br>   - Detailed descriptions of each variety<br>   - Add to cart functionality<br><br>### 4. **Why Choose Us Section**<br>   - 4 key benefits displayed with icons<br>   - Hover effects for interactive experience<br>   - Benefits include: Direct from farm, Chemical-free, Fast delivery, Safe packaging<br><br>### 5. **Discount & Offers**<br>   - Special offers displayed with attractive badges<br>   - 10% discount for 5kg purchase<br>   - 15% discount + free delivery on 3rd order<br><br>### 6. **Video Section**<br>   - Embedded YouTube video for packaging and delivery process<br>   - Responsive video container<br><br>### 7. **Customer Reviews**<br>   - 5-star review cards from satisfied customers<br>   - Testimonials in Bengali<br>   - Interactive hover effects<br><br>### 8. **Company Details & Contact**<br>   - About Us section<br>   - Contact information with icons<br>   - Operating hours<br>   - Social media links<br><br>### 9. **Interactive Features**<br>   - Add to cart with localStorage persistence<br>   - Smooth scroll navigation<br>   - Scroll-to-top button<br>   - Toast notifications<br>   - Intersection Observer animations<br><br>## 📱 Responsive Breakpoints<br>
+
+
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=shatabdi-maker&theme=cobalt&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=shatabdi-maker&theme=cobalt&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=shatabdi-maker&theme=cobalt&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=shatabdi-maker&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=shatabdi-maker&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://komarev.com/ghpvc/?username=shatabdi-maker&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
