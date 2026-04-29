@@ -1,45 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MangoBazar - Fresh Mango Delivery</title>
+    <title>MangoBazar - তাজা আম সরাসরি আপনার দোরগোড়ায়</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to MangoBazar</h1>
-        <p>Your go-to mango delivery service</p>
-        <a href="#order-form" class="btn">Order Now</a>
-    </header>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>MangoBazar offers the freshest mangoes delivered right to your doorstep.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>MangoBazar</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">হোম</a></li>
+                    <li><a href="#varieties">আমের ধরন</a></li>
+                    <li><a href="#why-us">কেন আমরা</a></li>
+                    <li><a href="#discount">ছাড়</a></li>
+                    <li><a href="#reviews">রিভিউ</a></li>
+                    <li><a href="#contact">যোগাযোগ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-headline">তাজা আম সরাসরি আপনার দোরগোড়ায়</h1>
+            <p class="hero-subtext">বাগান থেকে সরাসরি সংগ্রহ করা নিরাপদ ও সুস্বাদু আম</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary">এখনই অর্ডার করুন</button>
+                <button class="btn btn-secondary">আমের ধরন দেখুন</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/500x500?text=Fresh+Mangoes" alt="Fresh Mangoes">
+        </div>
     </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Fresh Mango Delivery</li>
-            <li>Customized Orders</li>
-            <li>Seasonal Promotions</li>
-        </ul>
+
+    <!-- Mango Varieties Section -->
+    <section id="varieties" class="varieties">
+        <div class="container">
+            <h2 class="section-title">আমের ধরন</h2>
+            <div class="varieties-grid">
+                <div class="mango-card">
+                    <img src="https://via.placeholder.com/250x250?text=হিমসাগর" alt="হিমসাগর">
+                    <h3>হিমসাগর</h3>
+                    <p class="price">৳ ১২০ প্রতি কেজি</p>
+                    <p class="description">মিষ্টি এবং রসালো স্বাদের জন্য বিখ্যাত আম। ভীষণ জনপ্রিয় এবং সুগন্ধযুক্ত।</p>
+                    <button class="btn btn-add-cart">কার্টে যোগ করুন</button>
+                </div>
+
+                <div class="mango-card">
+                    <img src="https://via.placeholder.com/250x250?text=ল্যাংড়া" alt="ল্যাংড়া">
+                    <h3>ল্যাংড়া</h3>
+                    <p class="price">৳ ১৫০ প্রতি কেজি</p>
+                    <p class="description">প্রিমিয়াম মানের আম যার স্বাদ অতুলনীয়। রপ্তানির জন্য বিখ্যাত।</p>
+                    <button class="btn btn-add-cart">কার্টে যোগ করুন</button>
+                </div>
+
+                <div class="mango-card">
+                    <img src="https://via.placeholder.com/250x250?text=ফজলি" alt="ফজলি">
+                    <h3>ফজলি</h3>
+                    <p class="price">৳ ১৩০ প্রতি কেজি</p>
+                    <p class="description">বড় আকারের এবং মিষ্টি স্বাদের আম। অনেক দিন সংরক্ষণ করা যায়।</p>
+                    <button class="btn btn-add-cart">কার্টে যোগ করুন</button>
+                </div>
+
+                <div class="mango-card">
+                    <img src="https://via.placeholder.com/250x250?text=আম্রপালি" alt="আম্রপালি">
+                    <h3>আম্রপালি</h3>
+                    <p class="price">৳ ১৪০ প্রতি কেজি</p>
+                    <p class="description">গ্রীষ্মের শুরুতে পাওয়া যায়। হালকা মিষ্টি এবং সুগন্ধযুক্ত আম।</p>
+                    <button class="btn btn-add-cart">কার্টে যোগ করুন</button>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="testimonials">
-        <h2>What Our Customers Say</h2>
-        <blockquote>"Best mangoes I've ever tasted!" - Jane Doe</blockquote>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2 class="section-title">কেন আমাদের বেছে নিবেন?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>বাগান থেকে সরাসরি</h3>
+                    <p>আমরা সরাসরি বাগান থেকে আম সংগ্রহ করি এবং আপনার দোরগোড়ায় পৌঁছে দিই।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>কেমিক্যালমুক্ত</h3>
+                    <p>আমাদের সমস্ত আম সম্পূর্ণ প্রাকৃতিক পদ্ধতিতে চাষ করা হয়। কোনো ক্ষতিকর রাসায়নিক নেই।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>দ্রুত ডেলিভারি</h3>
+                    <p>আমরা ২৪ ঘণ্টার মধ্যে আপনার অর্ডার ডেলিভারি করার প্রতিশ্রুতিবদ্ধ।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3>নিরাপদ প্যাকেজিং</h3>
+                    <p>আমরা বিশেষ প্যাকেজিং ব্যবহার করি যাতে আম ভ্রমণের সময় ক্ষতিগ্রস্ত না হয়।</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="order-form">
-        <h2>Place Your Order</h2>
-        <form id="form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="number" placeholder="Quantity" required>
-            <button type="submit">Submit Order</button>
-        </form>
+
+    <!-- Discount Section -->
+    <section id="discount" class="discount">
+        <div class="container">
+            <h2 class="section-title">বিশেষ অফার</h2>
+            <div class="discount-offers">
+                <div class="offer-card">
+                    <div class="offer-badge">১০% ছাড়</div>
+                    <h3>৫ কেজি কিনলে ১০% ছাড়</h3>
+                    <p>যেকোনো আমের ধরন থেকে ৫ কেজি বা তার বেশি কিনুন এবং ১০% ছাড় পান।</p>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-badge">বিশেষ ছাড়</div>
+                    <h3>৩য় বার অর্ডারে বিশেষ ছাড়</h3>
+                    <p>আমাদের সাথে তৃতীয় বার অর্ডার করলে অতিরিক্ত ১৫% ছাড় এবং ফ্রি ডেলিভারি পাবেন।</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2026 MangoBazar</p>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">আম প্যাকেজিং ও ডেলিভারি প্রক্রিয়া দেখুন</h2>
+            <div class="video-container">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">গ্রাহকদের মতামত</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"অসাধারণ আম! অত্যন্ত তাজা এবং মিষ্টি। ডেলিভারিও অনেক দ্রুত ছিল। পরবর্তীতে আবার অর্ডার করব।"</p>
+                    <p class="reviewer-name">- রহিম আহমেদ</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"আমের গুণমান চমৎকার এবং প্যাকেজিং অসাধারণ। কোনো আম ক্ষতিগ্রস্ত হয়নি। সবাইকে সুপারিশ করছি।"</p>
+                    <p class="reviewer-name">- ফাতিমা বেগম</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"প্রিমিয়াম মানের আম সাশ্রয়ী মূল্যে পাওয়া গেছে। বাগান থেকে সরাসরি আসায় স্বাদ অতুলনীয়।"</p>
+                    <p class="reviewer-name">- করিম খান</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Details Section -->
+    <section id="contact" class="company-details">
+        <div class="container">
+            <div class="details-wrapper">
+                <div class="about-us">
+                    <h2>আমাদের সম্পর্কে</h2>
+                    <p>MangoBazar হল একটি বিশ্বস্ত অনলাইন প্ল্যাটফর্ম যেখানে আপনি সরাসরি বাগান থেকে সংগৃহীত তাজা এবং মানসম্পন্ন আম পাবেন। আমরা বিশ্বাস করি গুণমান এবং সততায়। আমাদের লক্ষ্য হল প্রতিটি গ্রাহকের দোরগোড়ায় প্রকৃতির উপহার পৌঁছে দেওয়া।</p>
+                </div>
+
+                <div class="contact-us">
+                    <h2>যোগাযোগ করুন</h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+880 1712-345678</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@mangobazar.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>রাজশাহী, বাংলাদেশ</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>সোম - শুক্র: ৯:০০ AM - ৬:০০ PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MangoBazar</h3>
+                    <p>তাজা এবং স্বাস্থ্যকর আম সরাসরি আপনার দোরগোড়ায়।</p>
+                </div>
+                <div class="footer-section">
+                    <h4>দ্রুত লিংক</h4>
+                    <ul>
+                        <li><a href="#home">হোম</a></li>
+                        <li><a href="#varieties">আমের ধরন</a></li>
+                        <li><a href="#reviews">রিভিউ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>অনুসরণ করুন</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MangoBazar. সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
